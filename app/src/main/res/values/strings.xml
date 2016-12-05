@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="temp_max">%1$s \u00B0F Max</string>
+    <string name="temp_min">%1$s \u00B0F Min</string>
+
+    <!--Location Fragment Strings-->
+    <string name="location_fragment_load_text">Please wait while we \n fetch your location &#8230;</string>
+    <string name="dialog_permission_request">Permission Request</string>
+    <string name="location_request_message">App would like to use your location to provide you with the latest weather information. Would you like to grant permission?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="error_location_settings">Unable to fetch your location. Please go to settings and turn ON your location.</string>
+    <string name="error_need_permissions">Permission to fetch your location is not available. Tap \"Try Again\" to retry fetching your location.</string>
+    <string name="error_enable_permissions">App requires location permission to continue using. Enable permissions in setting and tap \"Try Again\"</string>
+    <string name="error_code">Error occurred, code: %1$d</string>
+    <string name="unknown_error">An Unknown error occurred while trying to fetch the location</string>
+    <string name="try_again">Try Again</string>
+
+    <!--Weather Fragment-->
+    <string name="loading_weather">Please wait while we get the weather forecast at your location &#8230;</string>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

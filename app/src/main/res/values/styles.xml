@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="WeatherTemperature" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+    <style name="WeatherTemperature.Big" parent="WeatherTemperature">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="WeatherTemperature.Small" parent="WeatherTemperature">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="WeatherIcon"/>
+
+    <style name="WeatherIcon.Small">
+        <item name="android:layout_margin">@dimen/weather_icon_margin</item>
+        <item name="android:layout_height">@dimen/weather_image_dimension_small</item>
+        <item name="android:layout_width">@dimen/weather_image_dimension_small</item>
+    </style>
+
+    <style name="WeatherIcon.Big">
+        <item name="android:layout_height">@dimen/weather_image_dimension_big</item>
+        <item name="android:layout_width">@dimen/weather_image_dimension_big</item>
+    </style>
+
+    <style name="WeatherDay" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+
+    <style name="WeatherDay.Big" parent="WeatherDay">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="WeatherDay.Small" parent="WeatherDay">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="WeatherDescription" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="LocationFragmentText" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+</resources>

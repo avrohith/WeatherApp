@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="weather_temperature_margin">10dp</dimen>
+    <dimen name="weather_icon_margin">20dp</dimen>
+    <dimen name="weather_day_margin">10dp</dimen>
+    <dimen name="weather_desc_margin">10dp</dimen>
+
+    <dimen name="weather_image_dimension_big">60dp</dimen>
+    <dimen name="weather_image_dimension_small">50dp</dimen>
+
+    <dimen name="cardview_radius">2dp</dimen>
+    <dimen name="cardview_elevation">5dp</dimen>
+    <dimen name="card_top_bottom_margin">5dp</dimen>
+    <dimen name="current_card_top_bottom_margin">15dp</dimen>
+
+    <dimen name="progress_bar_dimension">60dp</dimen>
+</resources>

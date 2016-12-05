@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/light_grey"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ProgressBar
+        android:id="@+id/location_fragment_progress_bar"
+        android:layout_width="@dimen/progress_bar_dimension"
+        android:layout_height="@dimen/progress_bar_dimension" />
+
+    <TextView
+        android:id="@+id/location_fragment_load_text"
+        style="@style/LocationFragmentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_fragment_load_text"/>
+
+    <TextView
+        android:id="@+id/location_fragment_error_message"
+        style="@style/LocationFragmentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:text="An error occurred fetching location"/>
+
+    <Button
+        android:id="@+id/location_fragment_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/try_again"/>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:id="@+id/weather_temp_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weather_temp_max"
+            style="@style/WeatherTemperature.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/weather_temperature_margin"
+            tools:text="84 Max" />
+
+        <TextView
+            android:id="@+id/weather_temp_min"
+            style="@style/WeatherTemperature.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="75 Min" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        style="@style/WeatherIcon.Small"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/weather_temp_layout"
+        android:layout_toStartOf="@id/weather_temp_layout"
+        android:contentDescription="@null"
+        tools:src="@drawable/sunrise" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/weather_icon"
+        android:layout_toStartOf="@id/weather_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weather_day"
+            style="@style/WeatherDay.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/weather_day_margin"
+            tools:text="Tuesday" />
+
+        <TextView
+            android:id="@+id/weather_desc"
+            style="@style/WeatherDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Bright and sunny" />
+
+    </LinearLayout>
+
+</RelativeLayout>
